@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+
+body {
+    background: rgb(235, 235, 235);
+    font-family: Oswald;
+    font-size: large;
+    padding-left: 5px;
+    max-width: 1519px;
+    max-height: 2500px;
+    background: linear-gradient( rgb(33, 33, 255), rgb(227, 34, 34));
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+
+p {
+    margin:2px 15px;
+    padding-top: 2px;
+    font-size: large;
+    color: rgb(255, 255, 255);
+}
+a {
+    margin-right: 10px;
+    margin-left: 15px;
+    color: inherit;
+}
+
+.Blck1 {
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    border-bottom-left-radius: 4px;
+    margin-left: 15px;
+    max-width: 1489px;
+}
+.Blck2 {
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    border-bottom-left-radius: 4px;
+    margin-left: 2px;
+    max-width: 1489px;
+    margin-bottom: 20px;
+}
+th {
+    padding: 0px 40px 0px 4px;
+}
+h1 {
+    color: rgb(255, 223, 42);
+    margin: 5px 15px;
+
+}
+h3 {
+    padding-bottom: 1px;
+    font-size: 20px;
+    margin: 2px 15px;
+    color: rgb(255, 223, 42);
+}
+img {
+    border-radius: 6px;
+}
+.btn {
+    background: none;
+    cursor: pointer;
+    font-size: large;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-family: Oswald;
+    font-style: italic;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+
+}
+.btn:hover {
+    background: rgb(255, 33, 33);
+}
+.container {
+    display: flex;
+    flex-direction:row ;
+}
+
+.form-group label {
+    display: block;
+}
+input, textarea {
+    background: transparent;
+    color: black;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+
+}
+.WORKINGBITCH {
+    display: flex;
+    margin-bottom: 5px;
+    padding-right: 10px;
+}
+.frmrow {
+    margin-right: auto;
+}
+
+@media (max-width: 996px) {
+    .Blck1 {
+        display: block;
+        text-align: center;
+        flex-direction: column;
+        margin: auto 2px;
+    }
+    .container {
+        /* display: inline-block; */
+        flex-direction: column;
+    }
+    img {
+        /* position: static; */
+        margin: 10px auto;
+        /* transform: translate(338px,0); */
+    }
+}
+@media (max-width: 380px) {
+    .WORKINGBITCH {
+        display: block;
+    }
+}
